@@ -1,0 +1,72 @@
+.about-car {
+    margin-top: 40px;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    height: 100%;
+}
+
+.about-text {
+    width: 30%;
+    text-align: end;
+
+    p {
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.about-paragraph {
+    width: 69%;
+
+    p {
+        padding: 5px;
+        font-size: 26px;
+        width: 80%;
+        margin-left: 10px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .about-text {
+        width: 20%;
+    }
+
+    .about-paragraph {
+        width: 79%;
+    }
+
+    .about-paragraph p {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .about-car {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text p {
+        text-align: center;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about-paragraph p {
+        margin: 0;
+        font-size: 18px;
+    }
+}
