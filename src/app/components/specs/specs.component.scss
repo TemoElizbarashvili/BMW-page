@@ -1,0 +1,152 @@
+.specs-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.specs-image {
+    width: 38%;
+    height: 100%;
+    background-image: url("../../../assets/images/specs.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.specs {
+    width: 58%;
+    height: 100%;
+    background-color: #dbdbdb;
+    border-radius: 50px;
+}
+
+.specs-header {
+    padding: 50px 50px 0 50px;
+    height: 20%;
+}
+
+.specs-title {
+    height: 80%;
+    font-size: 56px;
+    width: 70%;
+    font-weight: 700;
+    margin: 0;
+}
+
+.specs-text {
+    height: 20%;
+    font-size: 22px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.specs-list {
+    height: 65%;
+    padding: 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.spec-card {
+    height: 20%;
+    border-radius: 15px;
+    border: 2.5px solid #b1aeae;
+    box-shadow: 1px 1px #b1aeae, -1px 1px #b1aeae;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.card-text {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-icon {
+    height: 80%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon i {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.spec-name {
+    font-size: 18px;
+    color: #808080;
+    margin: 3px;
+}
+
+.spec-result { 
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 1650px) {
+    .specs-title {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .specs-title {
+        height: 60%;
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+   .specs-list {
+    flex-direction: column;
+    height: 900px;
+    padding: 0;
+   }
+
+   .col {
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+   }
+
+   .specs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .specs-container {
+    height: fit-content;
+   }
+
+   .specs-image {
+    display: none;
+   }
+}
+
+

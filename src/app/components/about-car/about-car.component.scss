@@ -1,6 +1,6 @@
 .about-car {
     margin-top: 40px;
-    height: 200px;
+    height: fit-content;
     display: flex;
     padding: 10px;
     display: flex;
@@ -24,13 +24,14 @@
 
 .about-paragraph {
     width: 69%;
+    height: fit-content;
 
     p {
         padding: 5px;
         font-size: 26px;
         width: 80%;
         margin-left: 10px;
-        
+        margin-bottom: 40px;
     }
 
 }

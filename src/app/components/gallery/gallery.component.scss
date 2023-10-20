@@ -1,0 +1,154 @@
+.gallery-container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-header {
+    height: 10%;
+    width: 100%;
+}
+
+.gallery-title {
+    font-size: 68px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.gallery {
+    height: 80%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-secondary {
+    border: 1px solid black;
+    background-color: transparent;
+    margin-top: 10px;
+    font-weight: 600;
+    width: 150px;
+}
+
+.button-secondary:hover {
+    background-color: black;
+    color: white ;
+}
+
+.upper-images {
+    margin-top: 10px;
+    display: flex;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-images {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 29%;
+}
+
+.left-up {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+
+    .img-1 {
+        background-image: url("../../../assets/images/gallery-2.jpg");
+        width: 30%;
+    }
+
+
+    .img-2 {
+        background-image: url("../../../assets/images/gallery-4.jpg");
+        background-position: center;
+        width: 69%;
+    }   
+
+}
+
+.img {
+    height: 100%;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.img:hover {
+    scale: 1.005;
+}
+
+.left-down-img {
+    background-image: url("../../../assets/images/gallery-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right {
+    background-image: url("../../../assets/images/gallery-5.jpg");
+    background-position: center;
+}
+
+.left-down {
+    height: 50%;
+}
+
+.lower-images {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        margin-top: 5px;
+        height: 92%;
+        background-position: center;
+    }
+
+    .left-img {
+        background-image: url("../../../assets/images/gallery-3.jpg");
+        width: 50%;
+    }
+
+    .right-img {
+        background-image: url("../../../assets/images/gallery-6.jpg");
+        width: 49%;   
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .gallery-title {
+        font-size: 40px;
+    }
+    .img:hover {
+        scale: 1;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .gallery-title {
+        font-size: 34px;
+    }
+}
+
+
+
