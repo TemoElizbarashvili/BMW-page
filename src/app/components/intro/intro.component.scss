@@ -49,6 +49,15 @@
     }
 }
 
+.button {
+    border: 0;
+    outline: none;
+    height: 50px;
+    border-radius: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+
 .button:hover {
     background-color: rgb(82, 82, 82);
 }

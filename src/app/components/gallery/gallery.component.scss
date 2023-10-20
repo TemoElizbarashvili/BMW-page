@@ -12,6 +12,15 @@
     width: 100%;
 }
 
+.button {
+    border: 0;
+    outline: none;
+    height: 50px;
+    border-radius: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+
 .gallery-title {
     font-size: 68px;
     font-weight: 600;
